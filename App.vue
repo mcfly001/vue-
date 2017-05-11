@@ -43,7 +43,7 @@
     methods:{
       getName(){
         this.k = Vue.k;
-        Vue.foo();
+        Vue.foo()
       }
     }
   }
