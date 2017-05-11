@@ -1,0 +1,42 @@
+{
+  "name": "test-environment",
+  "version": "1.0.0",
+  "description": "this is environment for test",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "gulp"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.3.1",
+    "babel-loader": "^6.3.",
+    "babel-plugin-transform-runtime": "^6.3.0",
+    "babel-preset-es015": "^6..0",
+    "babel-runtime": "^6.3.0",
+    "css-loader": "^0.6.1",
+    "es6-promise": "^4.1.0",
+    "extract-text-webpack-plugin": "^.1.0",
+    "html-webpack-plugin": "^.8.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.1",
+    "style-loader": "^0.13.1",
+    "vue-awesome-swiper": "^.4.0",
+    "vue-loader": "^11.1.4",
+    "vue-router": "^.3.0",
+    "vue-template-compiler": "^..4",
+    "webpack": "^..1",
+    "webpack-dev-server": "^.4.1"
+  },
+  "author": "zyj",
+  "license": "ISC",
+  "dependencies": {
+    "velocity-animate": "^1.5.0",
+    "vue": "^..4",
+    "vue-router": "^.3.0"
+  }
+}
